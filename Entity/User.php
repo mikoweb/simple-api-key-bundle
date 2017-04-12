@@ -9,7 +9,6 @@
 
 namespace Mikoweb\Bundle\SimpleApiKeyBundle\Entity;
 
-use Doctrine\ORM\Mapping as ORM;
 use FOS\UserBundle\Model\User as BaseUser;
 
 /**
@@ -17,16 +16,11 @@ use FOS\UserBundle\Model\User as BaseUser;
  *
  * @author Rafał Mikołajun <rafal@mikoweb.pl>
  * @package mikoweb/simple-api-key-bundle
- *
- * @ORM\Entity(readOnly=true)
  */
 class User extends BaseUser
 {
     /**
      * @var int
-     *
-     * @ORM\Id
-     * @ORM\Column(type="integer")
      */
     protected $id;
 
