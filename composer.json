@@ -1,0 +1,22 @@
+{
+    "name": "mikoweb/simple-api-key-bundle",
+    "type": "symfony-bundle",
+    "description": "Simple Api Key",
+    "homepage": "http://mikoweb.pl",
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Rafał Mikołajun",
+            "email": "rafal@mikoweb.pl",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "uecode/api-key-bundle": "~3.0",
+        "friendsofsymfony/user-bundle": "~2.0"
+    },
+    "autoload": {
+        "psr-4": { "Mikoweb\\Bundle\\SimpleApiKeyBundle\\": "" }
+    }
+}

@@ -1,0 +1,13 @@
+mikoweb_simple_api_key:
+    groups:
+        api_user:
+            roles:
+                - ROLE_API_USER
+                - ROLE_DO_SOMETHING
+                - ROLE_ACCESS_TO_ARTICLES
+        api_extended_user:
+            roles:
+                - ROLE_API_USER
+                - ROLE_DO_SOMETHING
+                - ROLE_ACCESS_TO_ARTICLES
+                - ROLE_EXTENDED_ACCESS

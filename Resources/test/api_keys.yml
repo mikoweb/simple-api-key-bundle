@@ -1,0 +1,5 @@
+mikoweb_simple_api_key:
+    keys:
+        normal_key: api_user
+        extended_key: api_extended_user
+        krwntfibN8: api_user

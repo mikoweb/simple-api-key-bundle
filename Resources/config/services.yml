@@ -1,0 +1,7 @@
+services:
+    mikoweb.simple_api_key.api_key_user_provider:
+        class: Mikoweb\Bundle\SimpleApiKeyBundle\Security\ApiKeyUserProvider
+        arguments:
+            - "%mikoweb_simple_api_key.groups%"
+            - "%mikoweb_simple_api_key.keys%"
+            - "%mikoweb_simple_api_key.user_class%"

@@ -1,0 +1,14 @@
+simple_api_key_index:
+    path:     /api
+    defaults: { _controller: MikowebSimpleApiKeyBundle:Test:index }
+    methods:  [GET]
+
+simple_api_key_something:
+    path:     /api/something
+    defaults: { _controller: MikowebSimpleApiKeyBundle:Test:something }
+    methods:  [GET]
+
+simple_api_key_extended:
+    path:     /api/extended
+    defaults: { _controller: MikowebSimpleApiKeyBundle:Test:extended }
+    methods:  [GET]
